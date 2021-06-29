@@ -1,0 +1,34 @@
+{
+	"animationTextures": [
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_001.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_002.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_003.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_004.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_005.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_006.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_007.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_008.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_008.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_009.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_010.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_011.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_012.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_013.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_014.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_015.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_016.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_017.png",
+			"assets/game/extra/cards/minicards/fx_martyrdom/fx_martyrdom_018.png"
+	],
+	"correction": {
+		"imgWidth" : 100,
+    	"imgHeight" : 100,
+		"scale": 1.0,
+    	"offsetX": 5,
+    	"offsetY": 5,
+    	"spriteTopLeftX" : 0,
+    	"spriteTopLeftY" : 0,
+    	"reflected": false
+	},
+	"fps": 15
+}

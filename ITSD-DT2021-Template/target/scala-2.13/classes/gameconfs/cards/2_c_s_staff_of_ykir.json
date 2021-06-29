@@ -1,0 +1,37 @@
+{
+	"id": 0,
+	"cardname": "Staff of Y'Kir'",
+	"manacost": 2,
+	"miniCard": {
+		"cardTextures": [
+			"assets/game/extra/cards/card_background.png",
+			"assets/game/extra/cards/card_background_highlight.png"
+		],
+		"animationFrames": [
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_000.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_001.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_002.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_003.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_004.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_005.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_006.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_007.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_008.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_009.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_010.png",
+			"assets/game/extra/cards/minicards/artifact_f3_staffofykir/artifact_f3_staffofykir_011.png"
+		],
+		"fps": 10,
+		"index": 18
+	},
+	"bigCard": {
+		"rulesTextRows": [
+			"Your avatar gains +2/+0"
+		],
+		"cardTextures": [
+			"assets/game/extra/cards/neutral_spell.png"
+		],
+		"attack": -1,
+		"health": -1
+	}
+}

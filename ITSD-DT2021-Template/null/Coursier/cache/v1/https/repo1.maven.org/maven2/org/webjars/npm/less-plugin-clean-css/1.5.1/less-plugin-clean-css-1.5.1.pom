@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <packaging>jar</packaging>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>less-plugin-clean-css</artifactId>
+    <version>1.5.1</version>
+    <name>less-plugin-clean-css</name>
+    <description>WebJar for less-plugin-clean-css</description>
+    <url>http://webjars.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <scm>
+        <url>https://github.com/less/less-plugin-clean-css</url>
+        <connection>https://github.com/less/less-plugin-clean-css.git</connection>
+        <developerConnection>https://github.com/less/less-plugin-clean-css.git</developerConnection>
+        <tag>v1.5.1</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>webjars</id>
+            <url>http://webjars.org</url>
+        </developer>
+    </developers>
+
+    <licenses>
+        
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://spdx.org/licenses/Apache-2.0#licenseText</url>
+            <distribution>repo</distribution>
+        </license>
+        
+    </licenses>
+
+    <dependencies>
+        
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>clean-css</artifactId>
+            <version>[3.0.1,4)</version>
+        </dependency>
+        
+    </dependencies>
+
+</project>

@@ -1,0 +1,161 @@
+@(request: play.mvc.Http.Request, user: String)
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ITSD Card Game Main Screen</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="@routes.Assets.at("css/uikit.css")" />
+        
+        <script src="@routes.Assets.at("js/jquery.3.4.1.js")"></script> 
+        <script src="@routes.Assets.at("js/uikit.js")"></script>
+        <script src="@routes.Assets.at("js/uikit-icons.js")"></script>
+		<script src="@routes.Assets.at("js/hexi.min.js")"></script>
+
+    </head>
+    <body id="mainBody" wsdata="@routes.GameScreenController.socket.webSocketURL(request)" onload="init()">
+
+
+	
+
+	<script src="@routes.Assets.at("js/cardgame.js")"></script>
+	<script type="text/javascript">
+	
+	// // Load them google fonts before starting...!
+	window.WebFontConfig = {
+    	google: {
+        	families: ['Roboto']
+    	},
+
+   		active: function() {
+        	// do something
+        	init();
+   		}
+	};
+	
+	let stageWidth = 1920;
+	let stageHeight = 1080;
+	let moveVelocity = 2;
+	
+	var ws;
+	var userDataSession;
+	var g;
+	var gameActorInitalized = false;
+	var gameStart = false;
+	var sinceLastHeartbeat = 0;
+	
+	// game objects
+	let boardTiles = new Map()
+	let spriteContainers = new Map()
+	let sprites = new Map()
+	let attackLabels = new Map()
+	let healthLabels = new Map()
+	let handContainers = [null,null,null,null,null,null]
+	let handSprites = [null,null,null,null,null,null];
+	let cardJSON = [null,null,null,null,null,null];
+	let cardPreview = null;
+	let prevewCountdown = 0;
+	
+	let activeMoves = new Map()
+	let activeProjectiles = [];
+	let drawUnitQueue = [];
+	let drawTileQueue = [];
+	
+	let player1ManaIcons = new Map()
+	let player2ManaIcons = new Map()
+	
+	let player1Health = null;
+	let player2Health = null;
+	
+	let player1Notification = null;
+	let player2Notification = null;
+	let player1NotificationText = null;
+	let player2NotificationText = null;
+	
+	let playingEffects = [];
+	
+	function init() {
+		openWebSocketConnection();
+	}
+	
+	
+	function openWebSocketConnection() {
+        var wsURL = document.getElementById("mainBody").getAttribute("wsdata");
+
+        //alert(wsURL);
+        ws = new WebSocket(wsURL);
+        ws.onmessage = function (event) {
+            var message;
+            message = JSON.parse(event.data);
+			console.log(message);
+            switch (message.messagetype) {
+                case "actorReady":
+					initHexi(message.preloadImages);
+
+					gameActorInitalized = true;
+					break;
+				case "drawTile":
+					//console.log(message);
+					drawTileQueue.push(message);
+					break;
+				case "drawUnit":
+					drawUnitQueue.push(message);
+					break;
+				case "moveUnit":
+				    moveUnit(message.unitID,message.tilex,message.tiley);
+                    break;
+				case "moveUnitToTile":
+					moveUnitToTile(message);
+					break;
+				case "setUnitHealth":
+					setUnitHealth(message);
+					break;
+				case "setUnitAttack":
+					setUnitAttack(message);
+					break;
+				case "setPlayer1Health":
+					setPlayer1Health(message);
+					break;
+				case "setPlayer2Health":
+					setPlayer2Health(message);
+					break;
+				case "setPlayer1Mana":
+					setPlayer1Mana(message);
+					break;
+				case "setPlayer2Mana":
+					setPlayer2Mana(message);
+					break;
+				case "addPlayer1Notification":
+					addPlayer1Notification(message);
+					break;
+				case "addPlayer2Notification":
+					addPlayer2Notification(message);
+					break;
+				case "playUnitAnimation":
+					playUnitAnimation(message);
+					break;
+				case "drawCard":
+					drawCard(message);
+					break;
+				case "deleteCard":
+					deleteCard(message);
+					break;
+				case "playEffectAnimation":
+					playEffectAnimation(message);
+					break;
+				case "deleteUnit":
+					deleteUnit(message);
+					break;
+				case "drawProjectile":
+					drawProjectile(message);
+					break;
+                default:
+                    return console.log(message);
+            }
+        };
+	}
+	
+	</script>
+     
+    </body>
+</html>

@@ -1,0 +1,26 @@
+{
+	"id": 0,
+	"cardname": "Azurite Lion",
+	"manacost": 3,
+	"miniCard": {
+		"cardTextures": [
+			"assets/game/extra/cards/card_background.png",
+			"assets/game/extra/cards/card_background_highlight.png"
+		],
+		"animationFrames": [
+			"assets/game/extra/units/f1_azuritelion/f1_azuritelion_run_001.png", "assets/game/extra/units/f1_azuritelion/f1_azuritelion_run_002.png", "assets/game/extra/units/f1_azuritelion/f1_azuritelion_run_003.png", "assets/game/extra/units/f1_azuritelion/f1_azuritelion_run_004.png", "assets/game/extra/units/f1_azuritelion/f1_azuritelion_run_005.png", "assets/game/extra/units/f1_azuritelion/f1_azuritelion_run_006.png", "assets/game/extra/units/f1_azuritelion/f1_azuritelion_run_007.png"
+		],
+		"fps": 10,
+		"index": 0
+	},
+	"bigCard": {
+		"rulesTextRows": [
+			"Can attack twice per turn"
+		],
+		"cardTextures": [
+			"assets/game/extra/cards/neutral_unit_h.png"
+		],
+		"attack": 2,
+		"health": 3
+	}
+}

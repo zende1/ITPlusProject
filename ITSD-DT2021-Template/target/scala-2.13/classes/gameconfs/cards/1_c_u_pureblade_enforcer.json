@@ -1,0 +1,26 @@
+{
+	"id": 0,
+	"cardname": "Pureblade Enforcer",
+	"manacost": 2,
+	"miniCard": {
+		"cardTextures": [
+			"assets/game/extra/cards/card_background.png",
+			"assets/game/extra/cards/card_background_highlight.png"
+		],
+		"animationFrames": [
+			"assets/game/extra/units/f1_melee/f1_melee_run_001.png", "assets/game/extra/units/f1_melee/f1_melee_run_002.png", "assets/game/extra/units/f1_melee/f1_melee_run_003.png", "assets/game/extra/units/f1_melee/f1_melee_run_004.png", "assets/game/extra/units/f1_melee/f1_melee_run_005.png"
+		],
+		"fps": 10,
+		"index": 0
+	},
+	"bigCard": {
+		"rulesTextRows": [
+			"SpellThief: Gain +1/+1"
+		],
+		"cardTextures": [
+			"assets/game/extra/cards/neutral_unit_h.png"
+		],
+		"attack": 1,
+		"health": 4
+	}
+}

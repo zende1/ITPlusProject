@@ -1,0 +1,38 @@
+{
+	"animationTextures": [
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_000.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_001.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_002.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_003.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_004.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_005.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_006.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_007.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_008.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_008.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_009.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_010.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_011.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_012.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_013.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_014.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_015.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_016.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_017.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_018.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_019.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_020.png",
+		"assets/game/extra/cards/minicards/fx_f1_inmolation/fx_f1_inmolation_021.png"
+	],
+	"correction": {
+		"imgWidth" : 100,
+    	"imgHeight" : 100,
+		"scale": 1.0,
+    	"offsetX": 5,
+    	"offsetY": 5,
+    	"spriteTopLeftX" : 0,
+    	"spriteTopLeftY" : 0,
+    	"reflected": false
+	},
+	"fps": 15
+}

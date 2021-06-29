@@ -1,0 +1,25 @@
+{
+	"animationTextures": [
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_000.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_001.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_002.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_003.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_004.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_005.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_006.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_007.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_008.png",
+			"assets/game/extra/cards/minicards/fx_explosionyellowelectrical/fx_explosionyellowelectrical_009.png"
+	],
+	"correction": {
+		"imgWidth" : 52,
+    	"imgHeight" : 56,
+		"scale": 1.3,
+    	"offsetX": 25,
+    	"offsetY": 25,
+    	"spriteTopLeftX" : 0,
+    	"spriteTopLeftY" : 0,
+    	"reflected": false
+	},
+	"fps": 9
+}

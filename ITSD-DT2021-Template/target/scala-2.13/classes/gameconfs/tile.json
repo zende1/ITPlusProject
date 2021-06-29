@@ -1,0 +1,13 @@
+{
+	"tileTextures": [
+		"assets/game/extra/ui/tile_board.png",
+		"assets/game/extra/ui/tile_grid.png",
+		"assets/game/extra/ui/tile_grid_red.png"
+	],
+	"xpos": 0,
+	"ypos": 0,
+	"width": 115,
+	"height": 115,
+	"tilex": 0,
+	"tiley": 0
+}

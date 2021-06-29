@@ -1,0 +1,28 @@
+{
+	"animationTextures": [
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_000.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_001.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_002.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_003.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_004.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_005.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_006.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_007.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_008.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_008.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_009.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_010.png",
+			"assets/game/extra/cards/minicards/fx_buff/fx_buff_011.png"
+	],
+	"correction": {
+		"imgWidth" : 100,
+    	"imgHeight" : 100,
+		"scale": 1.0,
+    	"offsetX": 5,
+    	"offsetY": 5,
+    	"spriteTopLeftX" : 0,
+    	"spriteTopLeftY" : 0,
+    	"reflected": false
+	},
+	"fps": 15
+}

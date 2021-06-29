@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="app"/>
+	<classpathentry kind="src" path="conf"/>
+	<classpathentry kind="src" path="target/scala-2.13/twirl/main"/>
+	<classpathentry kind="src" path="target/scala-2.13/routes/main"/>
+	<classpathentry excluding="resources/" kind="src" path="test"/>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-core-js/2.36.0/htmlunit-core-js-2.36.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\net\sourceforge\htmlunit\htmlunit-core-js\2.36.0\htmlunit-core-js-2.36.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws_2.13/2.8.1/play-ahc-ws_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-ahc-ws_2.13\2.8.1\play-ahc-ws_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.3.2\error_prone_annotations-2.3.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-codec\commons-codec\1.6\commons-codec-1.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\inject\javax.inject\1\javax.inject-1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.13\1.2.0\scala-xml_2.13-1.2.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/springframework/spring-core/5.2.2.RELEASE/spring-core-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\springframework\spring-core\5.2.2.RELEASE\spring-core-5.2.2.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.0\config-1.4.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws_2.13/2.8.1/play-ws_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-ws_2.13\2.8.1\play-ws_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jakarta\validation\jakarta.validation-api\2.0.2\jakarta.validation-api-2.0.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\2.8.1\checker-qual-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\io\jsonwebtoken\jjwt\0.9.1\jjwt-0.9.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.13\0.9.0\scala-java8-compat_2.13-0.9.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.1.0.Final/hibernate-validator-6.1.0.Final.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hibernate/validator/hibernate-validator/6.1.0.Final/hibernate-validator-6.1.0.Final-sources.jar"/>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.4.20.v20190813/websocket-api-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\websocket\websocket-api\9.4.20.v20190813\websocket-api-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.5.9/httpmime-4.5.9-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpmime\4.5.9\httpmime-4.5.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.1/play-akka-http-server_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-akka-http-server_2.13\2.8.1\play-akka-http-server_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.1/play-exceptions-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-exceptions\2.8.1\play-exceptions-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\twirl-api_2.13\1.5.0\twirl-api_2.13-1.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/webjars-play_2.13/2.8.0/webjars-play_2.13-2.8.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/webjars-play_2.13/2.8.0/webjars-play_2.13-2.8.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\webjars\webjars-play_2.13\2.8.0\webjars-play_2.13-2.8.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-text/1.7/commons-text-1.7-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-text\1.7\commons-text-1.7-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\net\jodah\typetools\0.5.0\typetools-0.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\1.1.2\scala-parser-combinators_2.13-1.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-io/commons-io/2.1/commons-io-2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-io\commons-io\2.1\commons-io-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jakarta\activation\jakarta.activation-api\1.2.1\jakarta.activation-api-1.2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/classmate/1.3.4/classmate-1.3.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\classmate\1.3.4\classmate-1.3.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/9.4.20.v20190813/jetty-io-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\jetty-io\9.4.20.v20190813\jetty-io-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.2/jackson-module-paranamer-2.10.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-paranamer\2.10.2\jackson-module-paranamer-2.10.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.3/akka-stream_2.13-2.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-stream_2.13\2.6.3\akka-stream_2.13-2.6.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ahc-ws-standalone_2.13/2.1.2/play-ahc-ws-standalone_2.13-2.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-ahc-ws-standalone_2.13\2.1.2\play-ahc-ws-standalone_2.13-2.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.3/jackson-dataformat-yaml-2.10.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.10.3/jackson-dataformat-yaml-2.10.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.10.3\jackson-dataformat-yaml-2.10.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/neko-htmlunit/2.36.0/neko-htmlunit-2.36.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\net\sourceforge\htmlunit\neko-htmlunit\2.36.0\neko-htmlunit-2.36.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest/2.1/hamcrest-2.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest\2.1\hamcrest-2.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit/2.36.0/htmlunit-2.36.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\net\sourceforge\htmlunit\htmlunit\2.36.0\htmlunit-2.36.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.1/play_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play_2.13\2.8.1\play_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http-core_2.13\10.1.11\akka-http-core_2.13-10.1.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.1/play-streams_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-streams_2.13\2.8.1\play-streams_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.2/jackson-module-parameter-names-2.10.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-parameter-names\2.10.2\jackson-module-parameter-names-2.10.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-xml_2.13/2.1.2/play-ws-standalone-xml_2.13-2.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-ws-standalone-xml_2.13\2.1.2\play-ws-standalone-xml_2.13-2.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.53/classgraph-4.8.53.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/io/github/classgraph/classgraph/4.8.53/classgraph-4.8.53-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\io\github\classgraph\classgraph\4.8.53\classgraph-4.8.53-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpcore\4.4.11\httpcore-4.4.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/squareup/okio/okio/1.14.0/okio-1.14.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\squareup\okio\okio\1.14.0\okio-1.14.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.1/filters-helpers_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\filters-helpers_2.13\2.8.1\filters-helpers_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-net/commons-net/3.6/commons-net-3.6-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-net\commons-net\3.6\commons-net-3.6-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/fluentlenium/fluentlenium-core/3.7.1/fluentlenium-core-3.7.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\fluentlenium\fluentlenium-core\3.7.1\fluentlenium-core-3.7.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.3/akka-protobuf-v3_2.13-2.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-protobuf-v3_2.13\2.6.3\akka-protobuf-v3_2.13-2.6.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/jquery/1.11.1/jquery-1.11.1-sources.jar"/>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\commons-logging\commons-logging\1.2\commons-logging-1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\httpcomponents\httpclient\4.5.9\httpclient-4.5.9-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xerces/xercesImpl/2.12.0/xercesImpl-2.12.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\xerces\xercesImpl\2.12.0\xercesImpl-2.12.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.5\joda-time-2.10.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.2/jackson-datatype-jdk8-2.10.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.10.2\jackson-datatype-jdk8-2.10.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone_2.13/2.1.2/play-ws-standalone_2.13-2.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-ws-standalone_2.13\2.1.2\play-ws-standalone_2.13-2.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/htmlunit-driver/2.36.0/htmlunit-driver-2.36.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\seleniumhq\selenium\htmlunit-driver\2.36.0\htmlunit-driver-2.36.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/requirejs/2.3.6/requirejs-2.3.6.jar"/>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\xalan\xalan\2.7.2\xalan-2.7.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-asynchttpclient/2.1.2/shaded-asynchttpclient-2.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\shaded-asynchttpclient\2.1.2\shaded-asynchttpclient-2.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/junit/junit/4.12/junit-4.12-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\junit\junit\4.12\junit-4.12-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.1/play-server_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-server_2.13\2.8.1\play-server_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\protobuf\protobuf-java\3.10.0\protobuf-java-3.10.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.1/play-guice_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-guice_2.13/2.8.1/play-guice_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-guice_2.13\2.8.1\play-guice_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jakarta\transaction\jakarta.transaction-api\1.3.3\jakarta.transaction-api-1.3.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.3/akka-slf4j_2.13-2.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-slf4j_2.13\2.6.3\akka-slf4j_2.13-2.6.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.13/2.8.1/play-java-forms_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java-forms_2.13/2.8.1/play-java-forms_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-java-forms_2.13\2.8.1\play-java-forms_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/awaitility/awaitility/4.0.1/awaitility-4.0.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/awaitility/awaitility/4.0.1/awaitility-4.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\awaitility\awaitility\4.0.1\awaitility-4.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\guava\28.1-jre\guava-28.1-jre-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/shaded-oauth/2.1.2/shaded-oauth-2.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\shaded-oauth\2.1.2\shaded-oauth-2.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/novocode/junit-interface/0.11/junit-interface-0.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\novocode\junit-interface\0.11\junit-interface-0.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/bootstrap/2.3.2/bootstrap-2.3.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/bootstrap/2.3.2/bootstrap-2.3.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\webjars\bootstrap\2.3.2\bootstrap-2.3.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.4.20.v20190813/websocket-common-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\websocket\websocket-common\9.4.20.v20190813\websocket-common-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/assertj/assertj-core/3.14.0/assertj-core-3.14.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/assertj/assertj-core/3.14.0/assertj-core-3.14.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\assertj\assertj-core\3.14.0\assertj-core-3.14.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\xalan\serializer\2.7.2\serializer-2.7.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/net/sourceforge/htmlunit/htmlunit-cssparser/1.5.0/htmlunit-cssparser-1.5.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\net\sourceforge\htmlunit\htmlunit-cssparser\1.5.0\htmlunit-cssparser-1.5.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/inject/guice/4.2.2/guice-4.2.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\inject\guice\4.2.2\guice-4.2.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/9.4.20.v20190813/jetty-util-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\jetty-util\9.4.20.v20190813\jetty-util-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.4.20.v20190813/websocket-client-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\websocket\websocket-client\9.4.20.v20190813\websocket-client-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\jcl-over-slf4j\1.7.29\jcl-over-slf4j-1.7.29-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.2/jackson-module-scala_2.13-2.10.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\module\jackson-module-scala_2.13\2.10.2\jackson-module-scala_2.13-2.10.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.3/akka-serialization-jackson_2.13-2.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-serialization-jackson_2.13\2.6.3\akka-serialization-jackson_2.13-2.6.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/cachecontrol_2.13/2.0.0/cachecontrol_2.13-2.0.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\cachecontrol_2.13\2.0.0\cachecontrol_2.13-2.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/9.4.20.v20190813/jetty-http-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\jetty-http\9.4.20.v20190813\jetty-http-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.13\0.4.1\ssl-config-core_2.13-0.4.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-test_2.13/2.8.1/play-test_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-test_2.13\2.8.1\play-test_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.1/play-logback_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-logback_2.13\2.8.1\play-logback_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\apache\commons\commons-exec\1.3\commons-exec-1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.2.2/guice-assistedinject-4.2.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\google\inject\extensions\guice-assistedinject\4.2.2\guice-assistedinject-4.2.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\springframework\spring-context\5.2.2.RELEASE\spring-context-5.2.2.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-xml/9.4.20.v20190813/jetty-xml-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\jetty-xml\9.4.20.v20190813\jetty-xml-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.13\2.8.1\play-functional_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.1/build-link-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\build-link\2.8.1\build-link-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/javax/cache/cache-api/1.1.1/cache-api-1.1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\javax\cache\cache-api\1.1.1\cache-api-1.1.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/atteo/classindex/classindex/3.4/classindex-3.4-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\atteo\classindex\classindex\3.4\classindex-3.4-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.2/jackson-dataformat-cbor-2.10.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.10.2\jackson-dataformat-cbor-2.10.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\slf4j\jul-to-slf4j\1.7.29\jul-to-slf4j-1.7.29-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.2/jackson-datatype-jsr310-2.10.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.10.2\jackson-datatype-jsr310-2.10.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\thoughtworks\paranamer\paranamer\2.8\paranamer-2.8-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-ws-standalone-json_2.13/2.1.2/play-ws-standalone-json_2.13-2.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-ws-standalone-json_2.13\2.1.2\play-ws-standalone-json_2.13-2.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.3/akka-actor_2.13-2.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.13\2.6.3\akka-actor_2.13-2.6.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator/0.38/webjars-locator-0.38.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator/0.38/webjars-locator-0.38-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\webjars\webjars-locator\0.38\webjars-locator-0.38-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.43/webjars-locator-core-0.43.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/webjars-locator-core/0.43/webjars-locator-core-0.43-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\webjars\webjars-locator-core\0.43\webjars-locator-core-0.43-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.3/akka-actor-typed_2.13-2.6.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor-typed_2.13\2.6.3\akka-actor-typed_2.13-2.6.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\jakarta\xml\bind\jakarta.xml.bind-api\2.3.2\jakarta.xml.bind-api-2.3.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java_2.13/2.8.1/play-java_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-java_2.13/2.8.1/play-java_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-java_2.13\2.8.1\play-java_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.13\2.8.1\play-json_2.13-2.8.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/flot/0.8.3/flot-0.8.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/flot/0.8.3/flot-0.8.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\webjars\flot\0.8.3\flot-0.8.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-parsing_2.13\10.1.11\akka-parsing_2.13-10.1.11-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/webjars/explorercanvas/r3-1/explorercanvas-r3-1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\webjars\explorercanvas\r3-1\explorercanvas-r3-1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\codehaus\mojo\animal-sniffer-annotations\1.18\animal-sniffer-annotations-1.18-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.24/snakeyaml-1.24-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\yaml\snakeyaml\1.24\snakeyaml-1.24-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/brotli/dec/0.1.2/dec-0.1.2-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\brotli\dec\0.1.2\dec-0.1.2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/springframework/spring-beans/5.2.2.RELEASE/spring-beans-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\springframework\spring-beans\5.2.2.RELEASE\spring-beans-5.2.2.RELEASE-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/org/eclipse/jetty/jetty-client/9.4.20.v20190813/jetty-client-9.4.20.v20190813-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\org\eclipse\jetty\jetty-client\9.4.20.v20190813\jetty-client-9.4.20.v20190813-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar" sourcepath="null/Coursier/cache/v1/https/repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:.\null\Coursier\cache\v1\https\repo1.maven.org\maven2\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/scala-2.13/classes"/>
+</classpath>

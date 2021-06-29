@@ -1,0 +1,29 @@
+{
+	"animationTextures": [
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_000.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_001.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_002.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_003.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_004.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_005.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_006.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_007.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_008.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_009.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_010.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_011.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_012.png",
+			"assets/game/extra/cards/minicards/fx_f1_casterprojectile/fx_f1casterprojectile_013.png"
+	],
+	"correction": {
+		"imgWidth" : 140,
+    	"imgHeight" : 32,
+		"scale": 1.0,
+    	"offsetX": 45,
+    	"offsetY": 45,
+    	"spriteTopLeftX" : 0,
+    	"spriteTopLeftY" : 0,
+    	"reflected": false
+	},
+	"fps": 15
+}

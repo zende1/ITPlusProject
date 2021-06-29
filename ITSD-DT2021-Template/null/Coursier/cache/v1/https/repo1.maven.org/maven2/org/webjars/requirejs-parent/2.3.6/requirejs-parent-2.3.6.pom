@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+
+    <packaging>pom</packaging>
+    <groupId>org.webjars</groupId>
+    <artifactId>requirejs-parent</artifactId>
+    <version>2.3.6</version>
+    <name>requirejs-parent</name>
+    <description>Parent WebJar for RequireJS</description>
+    <url>http://webjars.org</url>
+
+    <modules>
+        <module>requirejs</module>
+        <module>requirejs-node</module>
+    </modules>
+
+    <licenses>
+        <license>
+            <name>New BSD</name>
+            <url>https://github.com/jrburke/requirejs/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+        <license>
+            <name>MIT</name>
+            <url>https://github.com/jrburke/requirejs/blob/master/LICENSE</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>http://github.com/webjars/requirejs</url>
+        <connection>scm:git:https://github.com/webjars/requirejs.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/requirejs.git</developerConnection>
+        <tag>requirejs-parent-2.3.6</tag>
+    </scm>
+
+    <developers>
+        <developer>
+            <id>jamesward</id>
+            <name>James Ward</name>
+            <email>james@jamesward.org</email>
+        </developer>
+        <developer>
+            <id>jamesroper</id>
+            <name>James Roper</name>
+            <email>james@jazzy.id.au</email>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.jamesward</groupId>
+                <artifactId>unsnapshot-maven-plugin</artifactId>
+                <version>0.2</version>
+                <executions>
+                    <execution>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>unsnapshot</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.6</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>sonatype-nexus-staging</serverId>
+                    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
